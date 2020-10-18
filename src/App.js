@@ -1,12 +1,13 @@
 import React from "react";
-
-import "./App.css";
+import { ThemeProvider } from "@material-ui/core/styles";
+import theme from "./theme";
+import Covid19 from "./components/pages/Covid19";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">hello</header>
-    </div>
+    <ThemeProvider theme={theme}>
+      <Covid19 />
+    </ThemeProvider>
   );
 }
 
