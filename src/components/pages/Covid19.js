@@ -40,11 +40,6 @@ const Covid19 = () => {
             waskhan54@gmail.com
           </Typography>
         </Grid>
-        <Grid container justify="center">
-          <Typography style={{ color: "#355B8C" }} variant="h4">
-            407-745-9360
-          </Typography>
-        </Grid>
       </Grid>
       <Grid item xs={12}>
         <Grid>
