@@ -65,11 +65,11 @@ export default function CovidChart() {
   ) : null;
 
   return (
-    <Grid container className={classes.root} spacing={2}>
+    <Grid item xs={12} container className={classes.root} spacing={2}>
       {dailyData !== null && loading !== true ? (
         <Grid item xs={12}>
           <Grid container justify="center" spacing={spacing}>
-            <Grid item>
+            <Grid>
               <Card className={classes.card}>
                 <CardContent>{lineChart}</CardContent>
               </Card>

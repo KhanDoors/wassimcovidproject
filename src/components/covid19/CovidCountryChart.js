@@ -98,7 +98,7 @@ export default function CovidCountryChart() {
   ) : null;
 
   return (
-    <Grid container className={classes.root} spacing={2}>
+    <Grid item xs={12} container className={classes.root} spacing={2}>
       {countryInfo !== null && loading !== true ? (
         <Grid item xs={12}>
           <Grid container justify="center" spacing={spacing}>

@@ -31,10 +31,19 @@ const Covid19 = () => {
           Wassim Khan's Covid - 19 Update
         </Typography>
         <Grid container justify="center">
-          <Typography variant="h4">waskhan54@gmail.com</Typography>
+          <Typography style={{ color: "#355B8C" }} variant="h4">
+            Orlando Science School 8th Grade
+          </Typography>
         </Grid>
         <Grid container justify="center">
-          <Typography variant="h4">407-745-9360</Typography>
+          <Typography style={{ color: "#355B8C" }} variant="h4">
+            waskhan54@gmail.com
+          </Typography>
+        </Grid>
+        <Grid container justify="center">
+          <Typography style={{ color: "#355B8C" }} variant="h4">
+            407-745-9360
+          </Typography>
         </Grid>
       </Grid>
       <Grid item xs={12}>
@@ -43,18 +52,18 @@ const Covid19 = () => {
         </Grid>
       </Grid>
       <br />
-      <Grid container spacing={3}>
-        <Grid item xs={6}>
-          <Grid>
-            <CovidChart />
-          </Grid>
+      {/* <Grid container spacing={12}> */}
+      <Grid item xs={12}>
+        <Grid>
+          <CovidChart />
         </Grid>
-
-        <Grid item xs={6}>
-          <Grid>
-            <CovidCountryChart />
-          </Grid>
+      </Grid>
+      <br />
+      <Grid item xs={12}>
+        <Grid>
+          <CovidCountryChart />
         </Grid>
+        {/* </Grid> */}
         <br />
       </Grid>
       <Grid
