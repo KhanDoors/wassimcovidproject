@@ -125,7 +125,7 @@ export default function Covid() {
                 />
                 <CardMedia
                   className={classes.media}
-                  image="https://media.graytvinc.com/images/317_coviddeath_MGN.jpg"
+                  image="https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/other/1800x1200_virus_3d_render_red_03_other.jpg"
                   title="Codid19Deaths"
                 />
                 <CardContent>

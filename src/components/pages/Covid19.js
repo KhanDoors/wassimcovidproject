@@ -28,8 +28,14 @@ const Covid19 = () => {
           style={{ fontWeight: "bold", color: "#355B8C" }}
           variant="h2"
         >
-          Covid - 19 Update
+          Wassim Khan's Covid - 19 Update
         </Typography>
+        <Grid container justify="center">
+          <Typography variant="h4">waskhan54@gmail.com</Typography>
+        </Grid>
+        <Grid container justify="center">
+          <Typography variant="h4">407-745-9360</Typography>
+        </Grid>
       </Grid>
       <Grid item xs={12}>
         <Grid>
